@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+.header {
+    width: 100%;
+}
+
+.header {
+    background-color: #649734;
+}
+
+.image-top {
+    padding-bottom: 5%;
+}
+
+.header img {
+    width: 5%;
+    padding: 0 0 0 25%;
+}
+
+.content {
+    padding-top: 2.5%;
+    
+}
+
+.content-message p {
+    text-align: center;
+    color: #474747;
+}
+
+.content-buttons {
+    width: 33.33%;
+}
+
+
+.main-nav ul {
+    list-style-type: none;
+}
+
+
+.main-nav li {
+    background-color: #673497;
+    float: left;
+    outline: 1px solid #DEDEDE;
+    text-align: center;
+    width: 50%;
+}
+
+.main-nav a {
+    display: block;
+    padding: 7.6923%;
+    text-decoration: none;
+    color: #649734;
+}
+
+.main-nav li:hover {
+    background-color: #973634;
+}
+
+.main-nav a:hover {
+    color: #349597;
+}
+
+.main-footer {
+    background-color: #349597;
+    clear: both;
+    float: left;
+    font-size: .5em;
+    padding: 1.5625%;
+    text-align: center;
+    width: 100%;
+    color: #474747;
+}
+ 
+
+@media all and (max-width: 320px) {
+    .header {
+        width: 100%;
+    }
+
+    .header img {
+        width: 15%;
+        padding: 1% 0 0 1%;
+    }
+
+    .content {
+        width: auto;
+        padding-top: 10%;
+    }
+
+    .content-message, .content-buttons {
+        padding: 5% 5% 0 5%;
+    }
+
+    .content-message {
+        font-size: .75em;
+    }
+
+    .content-message p {
+        padding-bottom: 5%;
+    }
+
+    .main-nav li {
+        float: none;
+        width: auto;
+        margin: 4.6583%;
+    }
+
+
+    .content-buttons {
+        width: auto;
+        
+    }
+
+    .main-footer {
+        position:absolute;
+        bottom: 0;
+        padding: 5% 0;
+    }
+}
+
+@media all and (max-width: 640px){
+    .header {width: 100%;}
+    .header img {width: 15%; padding: 1% 0 0 1%;}
+    .content{width: auto}
+    .content-message, .content-buttons {padding: 5% 5% 0 5%;}
+    .content-message p {padding-bottom: 5%;}
+    .main-nav li {float :none; width: auto;}
+    .main-footer {position: absolute; bottom: 0; padding: 5%;}
+}
